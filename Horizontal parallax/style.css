@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* scroll-behavior: smooth; */
+}
+body{
+    background: linear-gradient(#040228 0%, #0075c7 40%);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+#plane{
+    height: 300px;
+    width: 600px;
+    margin-left: 900px;
+    margin-top: 200px;
+}
+#sky{
+    height: 100vh;
+}
+.sec{
+    position: relative;
+    padding: 200px;
+    background: #ffffff;
+}
+#text{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    margin-left: -650px;
+    position: absolute;
+    margin-top: 300px;
+    top: 0;
+    text-shadow: 0 0 5px black;
+    font-family: 'Poppins', sans-serif;
+}
+#bird{
+    height: 200px;
+    width: 350px;
+    margin-top: 350px;
+}
